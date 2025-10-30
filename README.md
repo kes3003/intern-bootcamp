@@ -17,3 +17,19 @@ This repository contains week-by-week data science practice modules.
 - `docs/` – reference and FAQs
 
 ---
+
+## Week 1 – SDLC Foundations & Data Ingestion
+
+### Implemented
+- Created and activated a Python virtual environment (`venv/`).
+- Installed core dependencies from `requirements.txt`.
+- Configured `.env` for secure database credentials.
+- Generated synthetic CSV data (`customers`, `products`, `orders`, `order_items`, `transactions`) under `data/raw/`.
+- Loaded data into:
+  - **PostgreSQL** (`intern_db` schema, 5 tables)
+  - **MongoDB** (`intern_db` database, 5 collections)
+- Implemented an ingestion script (`01_sdlc/ingest_csv.py`) that:
+  - Reads CSVs using `pandas`
+  - Performs validation (null checks, duplicates, schema mismatches)
+  - Inserts records into PostgreSQL using `SQLAlchemy`
+  - Logs every step to `logs/ingestion.log`
