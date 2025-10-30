@@ -33,3 +33,5 @@ This repository contains week-by-week data science practice modules.
   - Performs validation (null checks, duplicates, schema mismatches)
   - Inserts records into PostgreSQL using `SQLAlchemy`
   - Logs every step to `logs/ingestion.log`
+ 
+ 
