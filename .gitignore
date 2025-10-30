@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+.env
+
+# Data
+data/raw/
+data/processed/
+logs/
+
+# OS + Editor
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+
