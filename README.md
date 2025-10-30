@@ -34,4 +34,22 @@ This repository contains week-by-week data science practice modules.
   - Inserts records into PostgreSQL using `SQLAlchemy`
   - Logs every step to `logs/ingestion.log`
  
- 
+### Expanded Database Work
+- Designed a normalized relational schema in 02_sql/schema.sql featuring:
+  - Primary and foreign key relationships across all tables
+  - Accurate data types (NUMERIC, DATE, BIGSERIAL) for scalability
+  - Basic indexes on order_date and category for faster queries
+- Updated ingestion to if_exists="append" mode to preserve schema integrity.
+- Verified successful PostgreSQL and MongoDB connections using test scripts.
+
+### SQL Fundamentals & Analytics
+- Practiced core SQL concepts:
+  - SELECT, WHERE, ORDER BY, LIMIT, DISTINCT
+  - Joins (INNER, LEFT), grouping (GROUP BY, HAVING), aggregations
+  - Common Table Expressions (CTEs) for modular analytics
+  - Created analytical SQL scripts under 02_sql/ to explore business metrics.
+
+### Documentation & Version Control
+- Added clear documentation for setup, ingestion, and SQL outputs.
+- Used Git for structured commits and tags (v0.1-setup, v0.2-sql-basics).
+- Maintained consistent folder organization and .gitignore hygiene.

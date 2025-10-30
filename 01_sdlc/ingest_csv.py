@@ -7,9 +7,9 @@ import logging
 # -----------------------------------------------------------------------------
 # 1. Setup logging
 # -----------------------------------------------------------------------------
-os.makedirs("logs", exist_ok=True)
+os.makedirs("../logs", exist_ok=True)
 logging.basicConfig(
-    filename="logs/ingestion.log",
+    filename="../logs/ingestion.log",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
@@ -93,7 +93,7 @@ for table, filename in TABLES.items():
             logging.info(f"Validation passed for {table}")
 
         # Load to PostgreSQL
-        df.to_sql(table, engine, if_exists="replace", index=False)
+        df.to_sql(table, engine, if_exists="append", index=False)
         logging.info(f"💾 Inserted {len(df)} rows into {table}")
 
     except Exception as e:
