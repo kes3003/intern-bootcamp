@@ -1,4 +1,4 @@
-### 🔍 Indexing Performance Comparison
+### Indexing Performance Comparison
 
 | Metric | Before Index | After Index |
 |---------|---------------|--------------|
