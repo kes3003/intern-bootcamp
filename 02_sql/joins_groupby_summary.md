@@ -31,42 +31,23 @@
 Summary example screenshots:
 
 1. INNER JOIN: Orders + Customers
-order_id |  customer_name  | order_date |  status
-----------+-----------------+------------+-----------
-       48 | Andrea Lewis    | 2025-10-28 | Shipped
-       51 | Anthony Jenkins | 2025-10-26 | Cancelled
-       96 | Sarah Garrett   | 2025-10-01 | Cancelled
-       85 | Patrick Gates   | 2025-09-30 | Delivered
-       43 | Isaac Espinoza  | 2025-09-24 | Pending
-       46 | Larry Sandoval  | 2025-09-22 | Delivered
-       62 | Kimberly Smith  | 2025-09-12 | Cancelled
-       27 | Zachary Holmes  | 2025-09-11 | Delivered
-       18 | Benjamin Park   | 2025-09-08 | Shipped
-       19 | Justin Mckenzie | 2025-09-07 | Shipped
 
-2. LEFT JOIN: All Customers + Orders (if any)
-customer_id |        name        | order_id |  status
--------------+--------------------+----------+-----------
-           1 | Gregory Cohen      |          |
-           2 | Douglas Evans      |       66 | Shipped
-           3 | Richard Hayes      |       58 | Pending
-           3 | Richard Hayes      |       42 | Delivered
-           3 | Richard Hayes      |       16 | Pending
-           4 | Jamie Reed         |       80 | Cancelled
-           4 | Jamie Reed         |        6 | Shipped
-           4 | Jamie Reed         |        1 | Cancelled
-           5 | Steven Flores      |       90 | Delivered
-           5 | Steven Flores      |       60 | Delivered
-           6 | Judy Santos        |       74 | Shipped
-           6 | Judy Santos        |       68 | Delivered
-           6 | Judy Santos        |       67 | Shipped
-           6 | Judy Santos        |       13 | Delivered
-           7 | Kimberly Martin    |       40 | Cancelled
-           .
-           .
-           .
+| order_id  | customer_name   | order_date  | status |
+|-------|--------------| --------------| --------------|
+|  48 | Andrea Lewis    | 2025-10-28 | Shipped |
+| 51 | Anthony Jenkins | 2025-10-26 | Cancelled |
+| 96 | Sarah Garrett   | 2025-10-01 | Cancelled |
+| 85 | Patrick Gates   | 2025-09-30 | Delivered |
+| 43 | Isaac Espinoza  | 2025-09-24 | Pending |
+| 46 | Larry Sandoval  | 2025-09-22 | Delivered |
+| 62 | Kimberly Smith  | 2025-09-12 | Cancelled |
+| 27 | Zachary Holmes  | 2025-09-11 | Delivered |
+| 18 | Benjamin Park   | 2025-09-08 | Shipped |
+| 19 | Justin Mckenzie | 2025-09-07 | Shipped |
 
-3. Total Revenue & Average Order Value
-  total_revenue    |  avg_order_value   | total_orders
---------------------+--------------------+--------------
- 132871.91000000003 | 432.80752442996754 |          100
+
+2. Total Revenue & Average Order Value
+
+| total_revenue | avg_order_value | total_orders |
+|-------|--------------| --------------|
+|  132871.91000000003 | 432.80752442996754 |          100 |
