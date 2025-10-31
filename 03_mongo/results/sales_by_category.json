@@ -1,0 +1,30 @@
+[{
+  "_id": "Electronics",
+  "total_sales": 48700.409999999996,
+  "average_sales": 507.2959375,
+  "total_items_sold": 200
+},
+{
+  "_id": "Clothing",
+  "total_sales": 39360.92,
+  "average_sales": 837.4663829787233,
+  "total_items_sold": 102
+},
+{
+  "_id": "Home",
+  "total_sales": 23193.739999999998,
+  "average_sales": 286.34246913580245,
+  "total_items_sold": 162
+},
+{
+  "_id": "Sports",
+  "total_sales": 18529.77,
+  "average_sales": 487.6255263157895,
+  "total_items_sold": 83
+},
+{
+  "_id": "Books",
+  "total_sales": 3087.0699999999997,
+  "average_sales": 68.60155555555555,
+  "total_items_sold": 83
+}]

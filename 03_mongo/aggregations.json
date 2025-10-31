@@ -1,0 +1,20 @@
+[
+  {
+    "$lookup": {
+      "from": "products",
+      "localField": "product_id",
+      "foreignField": "product_id",
+      "as": "product_info"
+    }
+  },
+  { "$unwind": "$product_info" },
+  {
+    "$group": {
+      "_id": "$product_info.category",
+      "total_sales": { "$sum": { "$multiply": ["$quantity", "$price"] } },
+      "average_sales": { "$avg": { "$multiply": ["$quantity", "$price"] } },
+      "total_items_sold": { "$sum": "$quantity" }
+    }
+  },
+  { "$sort": { "total_sales": -1 } }
+]

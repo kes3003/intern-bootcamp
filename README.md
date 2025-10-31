@@ -64,7 +64,7 @@ This repository contains week-by-week data science practice modules.
 
 ---
 
-### 💾 Deliverables
+### Deliverables
 | File | Description |
 |------|--------------|
 | `03_mongo/mongo_basics.ipynb` | Notebook demonstrating CRUD operations, queries, and aggregation pipelines. |
@@ -73,7 +73,7 @@ This repository contains week-by-week data science practice modules.
 
 ---
 
-### 🧩 Key Learnings
+### Key Learnings
 - Learned how to **map relational tables into MongoDB document models**.  
 - Practiced maintaining **data consistency** across SQL and NoSQL systems.  
 - Explored **indexing, data duplication handling, and schema flexibility**.  
