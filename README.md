@@ -53,3 +53,32 @@ This repository contains week-by-week data science practice modules.
 - Added clear documentation for setup, ingestion, and SQL outputs.
 - Used Git for structured commits and tags (v0.1-setup, v0.2-sql-basics).
 - Maintained consistent folder organization and .gitignore hygiene.
+
+## Week 2 — MongoDB, Data Engineering & Analytics Foundations
+
+### Learning Focus
+- Understood **NoSQL fundamentals** and how MongoDB differs from relational databases.  
+- Explored **MongoDB architecture**   
+- Practiced **CRUD operations (Create, Read, Update, Delete)** using both **MongoDB Compass** and **Python (PyMongo)**.  
+- Compared **SQL vs NoSQL** data structures and use-cases for scalability and flexibility.  
+
+---
+
+### 💾 Deliverables
+| File | Description |
+|------|--------------|
+| `03_mongo/mongo_basics.ipynb` | Notebook demonstrating CRUD operations, queries, and aggregation pipelines. |
+| `03_mongo/insert_docs.py` | Script inserting new sample documents into MongoDB collections. |
+| `03_mongo/query_docs.py` | Script performing queries with filters, projections, and sorting. |
+
+---
+
+### 🧩 Key Learnings
+- Learned how to **map relational tables into MongoDB document models**.  
+- Practiced maintaining **data consistency** across SQL and NoSQL systems.  
+- Explored **indexing, data duplication handling, and schema flexibility**.  
+- Understanding of **SQL vs NoSQL trade-offs** in analytics workflows.
+
+---
+
+
