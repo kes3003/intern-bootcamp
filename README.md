@@ -54,13 +54,27 @@ This repository contains week-by-week data science practice modules.
 - Used Git for structured commits and tags (v0.1-setup, v0.2-sql-basics).
 - Maintained consistent folder organization and .gitignore hygiene.
 
+
 ## Week 2 — MongoDB, Data Engineering & Analytics Foundations
 
 ### Learning Focus
 - Understood **NoSQL fundamentals** and how MongoDB differs from relational databases.  
 - Explored **MongoDB architecture**   
 - Practiced **CRUD operations (Create, Read, Update, Delete)** using both **MongoDB Compass** and **Python (PyMongo)**.  
-- Compared **SQL vs NoSQL** data structures and use-cases for scalability and flexibility.  
+- Compared **SQL vs NoSQL** data structures for scalability and flexibility.  
+- Learned to build **aggregation pipelines** (`$match`, `$group`, `$project`, `$sort`, `$lookup`) for analytical reporting.  
+- Implemented **indexing** and analyzed query performance using `explain("executionStats")`.  
+- Created **text indexes** to perform keyword-based search across product names and categories.  
+
+---
+
+### Implemented
+- Created MongoDB collections (`customers`, `products`, `orders`, `order_items`, `transactions`).  
+- Inserted and queried documents through Compass and Python scripts.  
+- Designed and executed aggregation pipelines to compute sales by product category.  
+- Used `$lookup` for joining customer and order data.  
+- Created single-field and compound **indexes** to optimize query performance.  
+- Performed **text search** with `$text` queries for natural-language keyword filtering.  
 
 ---
 
@@ -70,15 +84,10 @@ This repository contains week-by-week data science practice modules.
 | `03_mongo/mongo_basics.ipynb` | Notebook demonstrating CRUD operations, queries, and aggregation pipelines. |
 | `03_mongo/insert_docs.py` | Script inserting new sample documents into MongoDB collections. |
 | `03_mongo/query_docs.py` | Script performing queries with filters, projections, and sorting. |
+| `03_mongo/aggregations.json` | Aggregation pipeline definitions for category-wise sales analytics. |
+| `03_mongo/index_performance_summary.md` | Markdown summary explaining indexing and text-search findings. |
 
 ---
 
-### Key Learnings
-- Learned how to **map relational tables into MongoDB document models**.  
-- Practiced maintaining **data consistency** across SQL and NoSQL systems.  
-- Explored **indexing, data duplication handling, and schema flexibility**.  
-- Understanding of **SQL vs NoSQL trade-offs** in analytics workflows.
-
----
 
 
