@@ -53,3 +53,5 @@ This repository contains week-by-week data science practice modules.
 - Added clear documentation for setup, ingestion, and SQL outputs.
 - Used Git for structured commits and tags (v0.1-setup, v0.2-sql-basics).
 - Maintained consistent folder organization and .gitignore hygiene.
+
+## Week 2 — MongoDB, Data Engineering & Analytics Foundations
