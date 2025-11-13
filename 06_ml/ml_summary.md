@@ -4,8 +4,7 @@
 The goal is to predict employee attrition based on demographic, job satisfaction, and workload-related features. This helps HR identify potential leavers early and implement proactive retention strategies.
 
 ### Dataset Overview
-- **Total records:** 1,470 employees  
-- **Features selected:** 14  
+- **Total records:** 1,470 employees   
 - **Target variable:** Attrition (1 = Yes, 0 = No)      
 - **Attrition rate:** ~16% (237 of 1,470 employees)
 
