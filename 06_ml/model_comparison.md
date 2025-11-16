@@ -2,7 +2,7 @@
 
 ## **Dataset Overview**
 - **Rows:** 1,470  
-- **Target:** `Attrition` (0 = Stay, 1 = Leave)  
+- **Target:** 'Attrition' (0 = Stay, 1 = Leave)  
 - **Class Imbalance:**  
   - *Stay:* 1233  
   - *Leave:* 237  
