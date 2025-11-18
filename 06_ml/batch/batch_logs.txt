@@ -1,0 +1,11 @@
+2025-11-17 14:54:26,315 - HR Batch prediction started
+2025-11-17 14:54:28,489 - Predictions completed for 1470 employees
+2025-11-17 14:54:28,558 - Database error: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+2025-11-17 14:54:44,872 - HR Batch prediction started
+2025-11-17 14:54:45,844 - Predictions completed for 1470 employees
+2025-11-17 14:54:45,992 - Database error: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+2025-11-17 14:55:59,336 - HR Batch prediction started
+2025-11-17 14:56:00,726 - Predictions completed for 1470 employees
+2025-11-17 14:56:01,153 - Batch results saved to PostgreSQL successfully.
