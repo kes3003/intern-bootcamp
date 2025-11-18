@@ -1,6 +1,8 @@
 from fastapi import FastAPI
 from pydantic import BaseModel, Field
 import joblib
+import pandas as pd
+
 
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
